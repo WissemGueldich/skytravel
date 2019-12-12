@@ -1,0 +1,8 @@
+tunis hamamet france paris 120 150 200 100 120 150 
+tunis hamamet france lyon 132 231 213 321 213 31 
+france paris france monaco 546 654 546 654 456 4564 
+          
+usa newyork france paris 46754 654 645 64 564 654 
+usa newyork france paris 46754 654 645 64 564 654 
+france paris tunis hamamet 54 56 65 46 65 546 
+france paris tunis hamamet 54 56 65 46 65 546 

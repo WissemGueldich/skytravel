@@ -1,0 +1,47 @@
+gchar *str_data0;
+gchar *str_data1;
+gchar *str_data2;
+gchar *str_data3;
+gchar *str_data4;
+gchar *str_data5;
+gchar *str_data6;
+gchar *str_data7;
+gchar *str_data8;
+gchar *str_data9;
+GtkListStore *list_store;
+list_store=gtk_tree_view_get_model(treeview);
+GtkTreeIter iter;
+  if (gtk_tree_model_get_iter(GTK_TREE_MODEL(list_store), &iter , path))
+{
+gtk_tree_model_get(GTK_TREE_MODEL(list_store),&iter, 0, &str_data0, -1);
+gtk_tree_model_get(GTK_TREE_MODEL(list_store),&iter, 1, &str_data1, -1);
+gtk_tree_model_get(GTK_TREE_MODEL(list_store),&iter, 2, &str_data2, -1);
+gtk_tree_model_get(GTK_TREE_MODEL(list_store),&iter, 3, &str_data3, -1);
+gtk_tree_model_get(GTK_TREE_MODEL(list_store),&iter, 4, &str_data4, -1);
+gtk_tree_model_get(GTK_TREE_MODEL(list_store),&iter, 5, &str_data0, -1);
+gtk_tree_model_get(GTK_TREE_MODEL(list_store),&iter, 6, &str_data1, -1);
+gtk_tree_model_get(GTK_TREE_MODEL(list_store),&iter, 7, &str_data2, -1);
+gtk_tree_model_get(GTK_TREE_MODEL(list_store),&iter, 8, &str_data3, -1);
+gtk_tree_model_get(GTK_TREE_MODEL(list_store),&iter, 9, &str_data4, -1);
+}
+strcpy(c1.pays_depare,str_data0);
+strcpy(c1.ville_depare,str_data1);
+strcpy(c1.pays_arrive,str_data2);
+strcpy(c1.ville_arrive,str_data3);
+strcpy(c1.adfc,str_data4);
+strcpy(c1.adbuis,str_data5);
+strcpy(c1.adeco,str_data6);
+strcpy(c1.enffc,str_data7);
+strcpy(c1.enfbuis,str_data8);
+strcpy(c1.enfeco,str_data9);
+char	pays_depare[20];
+char	ville_depare[20];
+char	pays_arrive[20];
+char	ville_arrive[20];
+char	adfc[20];
+char	adbuis[20];
+char	adeco[20];
+char	enffc[20];
+char	enfbuis[20];
+char	enfeco[20];
+
